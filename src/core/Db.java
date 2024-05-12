@@ -19,7 +19,6 @@ public class Db {
             System.out.println(e.getMessage());
         }
     }
-
     public Connection getConnection() {
         return connection;
     }
